@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wang Genomics Lab Members</title>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/ico/favicon.png" />
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Modal JS File -->
+    <script type="text/javascript" src="assets/js/modal.js"></script>
+    <!-- Modal CSS File -->
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+
+
+    <div class="modal-wrap flex">
+      <div class="mask"></div>
+      <div class="modal" id="modal">
+
+        <a class="close">X</a>
+
+        <div class="photo-box">
+          <img class="photo" style="padding: 50px; margin: auto; border-radius: 50%;" src = "assets/images/members/headshot_kai_wang_150px.png" />
+        </div>
+
+        <div class="info-box">
+          <div class="name"></div>
+          <div class="role"></div>
+
+          <a class="detail-caption">Contact</a>
+          <div class="contact"></div>
+          <br/>
+
+          <a class="detail-caption">Education</a>
+          <div class="education"></div>
+          <br/>
+
+          <a class="detail-caption">Description of Research Expertise</a>
+          <div class="description"></div>
+          <br/>
+          <a href="#" target="_blank" class="button">VIEW SITE</a>
+          <a href="#" target="_blank" class="fa fa-twitter"></a>
+          <a href="#" target="_blank" class="fa fa-github"></a>
+          <br/>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <div class="ms-main-container">
+      <!-- Preloader -->
+      <div class="ms-preloader"></div>
+      <!-- Header -->
+      <header class="ms-header">
+        <nav class="ms-nav">
+          <div class="ms-logo">
+            <a href="index.html" data-type="page-transition">
+              <div class="logo-dark current"><img src="logo-dark.svg" alt="logo image"></div>
+              <div class="logo-light"><img src="logo-light.svg" alt="logo image"></div>
+            </a>
+          </div>
+          <button class="hamburger" type="button" data-toggle="navigation">
+          <span class="hamburger-box">
+            <span class="hamburger-label">menu</span>
+            <span class="hamburger-inner"></span>
+          </span>
+          </button>
+          <div class="height-full-viewport">
+            <ul class="ms-navbar">
+              <!-- Nav Link -->
+              <li class="nav-item">
+                <a href="index.html" data-type="page-transition">
+                  <span class="ms-btn">home</span>
+                  <span class="nav-item__label">Back to home page</span>
+                </a>
+              </li>
+              <!-- Nav Link -->
+              <li class="nav-item">
+                <a href="research.html" data-type="page-transition">
+                  <span class="ms-btn">research</span>
+                  <span class="nav-item__label">Learn about our research</span>
+                </a>
+              </li>
+              <!-- Nav Link -->
+              <li class="nav-item">
+                <a href="publications.html" data-type="page-transition">
+                  <span class="ms-btn">publications</span>
+                  <span class="nav-item__label">Read exciting discoveries</span>
+                </a>
+              </li>
+              <!-- Nav Link -->
+              <li class="nav-item">
+                <a href="members.html" data-type="page-transition">
+                  <span class="ms-btn">members</span>
+                  <span class="nav-item__label">See the lab members</span>
+                </a>
+              </li>
+
+              <!-- Nav Link -->
+              <li class="nav-item">
+                <a href="news.html" data-type="page-transition">
+                  <span class="ms-btn">news</span>
+                  <span class="nav-item__label">Keep up with lab</span>
+                </a>
+              </li>
+              <!-- Nav Link -->
+              <li class="nav-item">
+                <a href="contact.html" data-type="page-transition">
+                  <span class="ms-btn">contact</span>
+                  <span class="nav-item__label">Get in touch and find us</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Container -->
+      <main class="ms-container">
+
+        <!-- Page Title -->
+        <div class="ms-section__block">
+          <div class="ms-page-title">
+            <h2 class="page-header">LAB MEMBERS</h2>
+            <p class="page-desc">Previous, current and future members.</p>
+          </div>
+        </div>
+        <!-- Page Content -->
+        <div class="ms-section__block">
+          <div id="albums">
+            <!-- Sort -->
+            <ul class="filtr-btn">
+              <!--li data-filter="all" class="active"><h6>all</h6></li-->
+              <li data-filter="1"><h6>Current</h6></li>
+              <li data-filter="2"><h6>Previous</h6></li>
+              <li data-filter="3"><h6>Future</h6></li>
+              <li data-filter="all" class="active"><h6>All</h6></li>
+            </ul>
+            
+            <div class="filtr-container row">
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="0" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Kai Wang</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/headshot_kai_wang_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="1" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Qian Liu</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/qianliu_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="2" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Li Fang</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/LiFang_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="3" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Jim Havrilla</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/JimH_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="4" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Abolfazl Doostparast</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/Nasser_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="5" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Umair Ahsan</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/umair_ahsan_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="6" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Mengge Zhao</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/mengge_zhao_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="7" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Chris Nicholson</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/chris_nicholson_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="8" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Jackie Peng</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/jackie_peng_150px.png)"></div>
+                </a>
+              </div>              
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="1">
+                <a id="9" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Jonathan Choi</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/jonathan_choi_150px.png)"></div>
+                </a>
+              </div>
+
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="10" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Atlas Khan</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/atlas_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="11" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Karen Xu</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/karen_xu_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="12" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Chenchao Zang</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/chenchao_zang_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="13" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Atif Ahmed</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/atif_ahmed_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="14" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Eshan Agarwal</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/Eshan1.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="15" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Jayant Madugula</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/jayant_madugula_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="16" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Kelsey D’Souza</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/kelsey_dsouza_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="17" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Sarah Nedjar</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/sarah_nedjar_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="18" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Chris Armoskus</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/carmoskus1_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="19" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Hui Yang</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/huiyang_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="20" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Coco Dong</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/chengliangdong_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="21" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Mingyang Cai</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/mingyangcai_150px.jpg)"></div>
+                </a>
+              </div>
+
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="22" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Shuangchao Ma</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/shuangchaoma_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="23" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Yunfei Guo</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/yunfeiguo_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="24" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Leandro Lima</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/leandro_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="25" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Quan Li</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/quanli_150px.png)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="26" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>William Podevin</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/podevin_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="27" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>JiHong Kim</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/jihongkim.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="28" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Sarah Asiaban</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/sarah_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="29" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Ava Soleimany</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/soleimany_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="30" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Fan Gao</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/fangao_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="31" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Lingling Shi</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/linglingshi_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="32" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Xiao Chang</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/xiaochang_150px.jpg)"></div>
+                </a>
+              </div>
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="2">
+                <a id="33" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Liyun Zeng</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/liyunzeng.jpg)"></div>
+                </a>
+              </div>
+
+
+
+              <!-- Album item -->
+              <div class="album-item col-md-2 col-sm-6 filtr-item" data-category="3">
+                <a id="34" class="open-button-class">
+                  <div class="album-item__overlay">
+                    <span class="album-item__cover"></span>
+                    <h5>Join Us</h5>
+                  </div>
+                  <div class="album-item__img" style="background-image: url(assets/images/members/stamp_join_150px.png)"></div>
+                </a>
+              </div>
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="ms-footer">
+          <div class="copyright">Wang Genomics Lab © 2010-2019.</div>
+          <ul class="socials">
+            <li><a href="https://github.com/WGLab" class="socicon-github"></a></li>
+            <li><a href="https://twitter.com/wangglab" class="socicon-twitter"></a></li>
+            <li><a href="#" class="socicon-wechat"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <!-- JS Libraries -->
+    <!-- jquery-2.1.3.min js -->
+    <script type="text/javascript" src='assets/js/jquery-3.2.1.min.js'></script>
+    <!-- Vendors -->
+    <script type="text/javascript" src='assets/js/plugins.min.js'></script>
+    <!-- Main js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
